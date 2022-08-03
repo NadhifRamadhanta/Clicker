@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker</title>
+    <script src="script.js" defer></script>
+    <style>
+        *,*::before,*::after{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background-color: lightgrey;
+        }
+        .view{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4.5rem;
+        }
+        .number:hover{
+            cursor: default;
+        }
+    </style>
+</head>
+<body>
+    <div class="view">
+        <div class="number">
+            0
+        </div>
+    </div>
+</body>
+</html>
